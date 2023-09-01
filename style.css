@@ -1,24 +1,24 @@
 * {
-    margin: 15px 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  margin: 15px 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
-    width: 50%;
+  width: 50%;
 }
 
 p {
-    width: 50%;
-    text-align: center;
+  width: 50%;
+  text-align: center;
 }
