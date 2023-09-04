@@ -5,7 +5,10 @@
   font-family: sans-serif;
 }
 
-body {
+body,
+header,
+main,
+footer {
   background-color: #000;
   color: #fff;
   display: flex;
