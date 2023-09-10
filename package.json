@@ -4,7 +4,8 @@
   "description": "change-academy",
   "main": "index.js",
   "scripts": {
-    "start": "parcel pages/index.html5.html"
+    "start": "parcel pages/index.html",
+    "promeni": "parcel pages/index.html5.html"
   },
   "repository": {
     "type": "git",
