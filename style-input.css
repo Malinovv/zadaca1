@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* Academy:
+    Rule name: 
+    - tag name: h1
+*/
+
+p {
+  font-size: 22px;
+  font-weight: bold;
+  color: green;
+}
+
+/* Rule name: class */
+
+.tittle {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Rule name: ID */
+
+#avatar-selection {
+  color: blue;
+  font-size: 16px;
+}
