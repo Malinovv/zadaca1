@@ -1,0 +1,57 @@
+/* absolute positioning */
+header {
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: magenta;
+}
+
+ul {
+  position: relative;
+  width: 100%;
+}
+
+.parent {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  position: relative;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: relative;
+  top: 50px;
+}
+
+.child2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  top: 50px;
+  display: none;
+}
+
+header {
+  margin: 0 auto;
+}
+
+p {
+  font-size: 80px;
+}
+
+span {
+  background-color: red;
+  position: sticky;
+  top: 50px;
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  .child {
+    background-color: green;
+  }
+}
