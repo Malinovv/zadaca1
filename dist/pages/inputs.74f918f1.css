@@ -1,0 +1,29 @@
+body {
+  color: #fff;
+  box-sizing: border-box;
+  background-color: #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  display: flex;
+}
+
+p {
+  color: green;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.tittle {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#avatar-selection {
+  color: #00f;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=inputs.74f918f1.css.map */
