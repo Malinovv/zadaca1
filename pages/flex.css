@@ -1,0 +1,59 @@
+* {
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.vertically-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 300;
+}
+
+header nav a:hover {
+  font-weight: 700;
+}
+
+#image-gallery {
+}
+
+#image-gallery > div {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#image-gallery > div img {
+  width: 150px;
+}
+
+#cards .wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+#cards .wrapper div {
+  padding: 10px;
+  border: solid #ccc 1px;
+  border-radius: 5px;
+}
+#cards .wrapper div img {
+  max-width: 100%;
+}
