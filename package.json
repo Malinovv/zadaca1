@@ -4,7 +4,7 @@
   "description": "change-academy",
   "main": "index.js",
   "scripts": {
-    "start": "parcel vezba.html"
+    "start": "parcel pages/index_bootstrap.html"
   },
   "repository": {
     "type": "git",
